@@ -11,10 +11,8 @@
         <!--begin::Toolbar-->
         <div class="card-toolbar">
             <!--begin::Menu-->
-            <button
-                class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
-                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end"
-                data-kt-menu-overflow="true">
+            <button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end"
+                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
                 <i class="ki-duotone ki-dots-square fs-1 text-gray-300 me-n1">
                     <span class="path1"></span>
                     <span class="path2"></span>
@@ -27,8 +25,7 @@
                 data-kt-menu="true">
                 <!--begin::Menu item-->
                 <div class="menu-item px-3">
-                    <div class="menu-content fs-6 text-dark fw-bold px-3 py-4">Quick
-                        Actions</div>
+                    <div class="menu-content fs-6 text-dark fw-bold px-3 py-4">Quick Actions</div>
                 </div>
                 <!--end::Menu item-->
                 <!--begin::Menu separator-->
@@ -45,8 +42,7 @@
                 </div>
                 <!--end::Menu item-->
                 <!--begin::Menu item-->
-                <div class="menu-item px-3" data-kt-menu-trigger="hover"
-                    data-kt-menu-placement="right-start">
+                <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
                     <!--begin::Menu item-->
                     <a href="#" class="menu-link px-3">
                         <span class="menu-title">New Group</span>
@@ -85,8 +81,7 @@
                 <!--begin::Menu item-->
                 <div class="menu-item px-3">
                     <div class="menu-content px-3 py-3">
-                        <a class="btn btn-primary btn-sm px-4" href="#">Generate
-                            Reports</a>
+                        <a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
                     </div>
                 </div>
                 <!--end::Menu item-->
@@ -115,8 +110,8 @@
                 </div>
                 <!--end::Badge-->
                 <!--begin::Text-->
-                <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest.
-                    Indulging in poorly driving and keep structure</div>
+                <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in
+                    poorly driving and keep structure</div>
                 <!--end::Text-->
             </div>
             <!--end::Item-->
@@ -184,9 +179,8 @@
                 </div>
                 <!--end::Badge-->
                 <!--begin::Text-->
-                <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest.
-                    Indulging in poorly driving and keep structure keep you honest great
-                </div>
+                <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in
+                    poorly driving and keep structure keep you honest great</div>
                 <!--end::Text-->
             </div>
             <!--end::Item-->
@@ -204,8 +198,7 @@
                 </div>
                 <!--end::Badge-->
                 <!--begin::Desc-->
-                <div class="timeline-content fw-semibold text-gray-800 ps-3">New order
-                    placed
+                <div class="timeline-content fw-semibold text-gray-800 ps-3">New order placed
                     <a href="#" class="text-primary">#XF-2356</a>.
                 </div>
                 <!--end::Desc-->
@@ -225,8 +218,8 @@
                 </div>
                 <!--end::Badge-->
                 <!--begin::Text-->
-                <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest.
-                    Indulging in poorly driving and keep structure</div>
+                <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in
+                    poorly driving and keep structure</div>
                 <!--end::Text-->
             </div>
             <!--end::Item-->

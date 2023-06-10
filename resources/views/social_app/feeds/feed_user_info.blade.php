@@ -13,10 +13,11 @@
             <div class="text-center">
                 <!--begin::Name-->
                 <a href="../../demo1/dist/pages/user-profile/overview.html"
-                    class="text-gray-800 fw-bold text-hover-primary fs-4">Jerry Kane</a>
+                    class="text-gray-800 fw-bold text-hover-primary fs-4">{{ $user->first_name }}
+                    {{ $user->last_name }}</a>
                 <!--end::Name-->
                 <!--begin::Position-->
-                <span class="text-muted d-block fw-semibold">Grade 8, AE3 Student</span>
+                {{-- <span class="text-muted d-block fw-semibold">Grade 8, AE3 Student</span> --}}
                 <!--end::Position-->
             </div>
             <!--end::Info-->
@@ -27,7 +28,8 @@
             <!--begin::Col-->
             <div class="col-md-4 text-center">
                 <div class="text-gray-800 fw-bold fs-3">
-                    <span class="m-0" data-kt-countup="true" data-kt-countup-value="642">0</span>
+                    <span class="m-0" data-kt-countup="true"
+                        data-kt-countup-value="642">{{ $user->posts_count }}</span>
                 </div>
                 <span class="text-gray-500 fs-8 d-block fw-bold">POSTS</span>
             </div>
@@ -35,7 +37,8 @@
             <!--begin::Col-->
             <div class="col-md-4 text-center">
                 <div class="text-gray-800 fw-bold fs-3">
-                    <span class="m-0" data-kt-countup="true" data-kt-countup-value="24">0</span>K
+                    <span class="m-0" data-kt-countup="true"
+                        data-kt-countup-value="24">{{ $user->followers_count }}</span>K
                 </div>
                 <span class="text-gray-500 fs-8 d-block fw-bold">FOLLOWERS</span>
             </div>
@@ -43,7 +46,8 @@
             <!--begin::Col-->
             <div class="col-md-4 text-center">
                 <div class="text-gray-800 fw-bold fs-3">
-                    <span class="m-0" data-kt-countup="true" data-kt-countup-value="12">0</span>K
+                    <span class="m-0" data-kt-countup="true"
+                        data-kt-countup-value="12">{{ $user->followings_count }}</span>K
                 </div>
                 <span class="text-gray-500 fs-8 d-block fw-bold">FOLLOWING</span>
             </div>
